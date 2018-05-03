@@ -1,0 +1,19 @@
+{
+  "name": "formbuilder",
+  "version": "1.0.0",
+  "description": "this is a form builder built with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JATaber/formBuilder.git"
+  },
+  "author": "James Taber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JATaber/formBuilder/issues"
+  },
+  "homepage": "https://github.com/JATaber/formBuilder#readme"
+}
