@@ -71,7 +71,7 @@ Install the packages
 ```
 <input type="reset" value="Reset">
 ```
-###Output
+### Output
 ```
 <input type="submit" value="Submit">
 ```
