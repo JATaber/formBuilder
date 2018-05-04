@@ -9,18 +9,18 @@ const inputFactory = (input) => {
                 // Check if name and options array or throw exception
                 if (input.name && input.options && Array.isArray(input.options)) {
                     // Builds a string to return
-                    let outputString = `<select name="${input.name}">`;
+                    let outputString = `<select name="${input.name}">\n`;
 
                     for (let i = 0; i < input.options.length; i++){
-                        outputString += `<option value="${input.options[i].value}">${input.options[i].label}</option>`;
+                        outputString += `<option value="${input.options[i].value}">${input.options[i].label}</option>\n`;
                     }
 
                     //close the select tag
-                    outputString += '</select>';
+                    outputString += '</select>\n';
 
                     //this labels the select element of the form
                     if (input.label){
-                        outputString = `<label>${input.label} ${outputString}</label>`;
+                        outputString = `<label>${input.label} ${outputString}</label>\n`;
                     }
 
                     outputString = `${outputString}`;
@@ -35,7 +35,7 @@ const inputFactory = (input) => {
             case 'label':
                 // Check if value or throw exception
                 if (input.value){
-                    return `<label>${input.value}</label>`;
+                    return `<label>${input.value}</label>\n`;
                 }else{
                     return error('The label inputs require a value string.', input.value);
                 }
@@ -43,7 +43,7 @@ const inputFactory = (input) => {
 
             case 'reset':
                 if(input.type === 'reset'){
-                    return `<input type="${input.type}" value="${input.value}">`;
+                    return `<input type="${input.type}" value="${input.value}">\n`;
                 }else{
                     return error(`The ${input.type} inputs require a value string`, input.value);
                 }
@@ -51,7 +51,7 @@ const inputFactory = (input) => {
 
             case 'submit':
                 if(input.type === 'submit'){
-                    return `<input type="${input.type}" value="${input.value}">`
+                    return `<input type="${input.type}" value="${input.value}">\n`
                 }else{
                     return error(`The ${input.type} inputs require a value string`, input.value);
                 }
@@ -68,11 +68,11 @@ const inputFactory = (input) => {
                         outputString += ` value="${input.value}"/>`;
                     }else{
                         //this closes the input field
-                        outputString += ' />';
+                        outputString += ' />\n';
                     }
 
                     if (input.label){
-                        outputString = `<label>${input.label} ${outputString}</label>`;
+                        outputString = `<label>${input.label} ${outputString}</label>\n`;
                     }
 
                     return outputString;
@@ -103,7 +103,7 @@ module.exports.buildForm = (inputs, action = false, method = 'GET') => {
 
     //this checks to see if a method was set
     if(method){
-        outputString += ` method="${method}">`;
+        outputString += ` method="${method}">\n`;
     }
 
     // Check if inputs variable is an array or throw exception
