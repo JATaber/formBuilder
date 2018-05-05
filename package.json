@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JATaber/formBuilder/issues"
   },
-  "homepage": "https://github.com/JATaber/formBuilder#readme"
+  "homepage": "https://github.com/JATaber/formBuilder#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
 }
