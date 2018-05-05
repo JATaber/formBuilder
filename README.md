@@ -20,7 +20,7 @@ Install the packages
 
 `node src/index.js`
 
-### Allowed inputs
+#### Allowed inputs
 
 * Select
 * Submit
@@ -40,46 +40,46 @@ Install the packages
  ]}
 
 ```
-### Output
+#### Output
 ```
 <select name="gender">
 <option value="male">Male</option>
 <option value="female">Female</option>
 </select>
 ```
-### Label & Text Input
+#### Label & Text Input
 ```
 {type: 'text', label: 'First Name', name: 'firstName', value: 'Enter your first name' }
 ```
-### Output
+#### Output
 ```
 <label>Last Name <input type="text" name="lastName" value="Enter your last name"/></label>
 ```
-### Submit Input
+#### Submit Input
 ```
 {type: 'submit', value: 'Submit'}
 ```
-### Output
+#### Output
 ```
 <input type="submit" value="Submit">
 ```
-### Reset Input
+#### Reset Input
 ```
 {type: 'reset', value: 'Reset'}
 ```
-### Output
+#### Output
 ```
 <input type="reset" value="Reset">
 ```
-### Output
+#### Output
 ```
 <input type="submit" value="Submit">
 ```
-### Email Input
+#### Email Input
 ```
 {type: 'text', label: 'Last Name', name: 'lastName', value: 'Enter your last name'}
 ```
-### Output
+#### Output
 ```
 <label>Email <input type="email" name="email" value="Enter your email"/></label>
 ```
