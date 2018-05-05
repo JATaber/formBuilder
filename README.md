@@ -16,6 +16,12 @@ Install the packages
 
 `npm install`
 
+## AirBnB Style Guide Lint Test
+
+make sure you install mocha globally
+
+`npm i -g mocha`
+
 ## Testing the code
 
 `node src/index.js`
