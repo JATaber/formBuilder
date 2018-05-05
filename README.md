@@ -16,9 +16,31 @@ Install the packages
 
 `npm install`
 
-### Testing the code
+## AirBnB Style Guide Lint Test
 
-`node src/index.js`
+### Make sure you install mocha globally
+
+`npm i -g mocha`
+
+### Then install mocha-eslint to you developer dependencies
+
+`npm install mocha-eslint --save-dev`
+
+### Test the AirBnB style test 
+
+`npm run airbnb`
+
+If the code is up to airbnb standards to terminal window will output
+
+```
+  AirBnB Style Guide Adhearance - eslint
+    √ should have no errors in src/builderTool.js
+    √ should have no errors in src/index.js
+```
+
+## Testing the code
+
+`npm test`
 
 ### Allowed inputs
 
@@ -40,46 +62,46 @@ Install the packages
  ]}
 
 ```
-### Output
+#### Output
 ```
 <select name="gender">
 <option value="male">Male</option>
 <option value="female">Female</option>
 </select>
 ```
-### Label & Text Input
+#### Label & Text Input
 ```
 {type: 'text', label: 'First Name', name: 'firstName', value: 'Enter your first name' }
 ```
-### Output
+#### Output
 ```
 <label>Last Name <input type="text" name="lastName" value="Enter your last name"/></label>
 ```
-### Submit Input
+#### Submit Input
 ```
 {type: 'submit', value: 'Submit'}
 ```
-### Output
+#### Output
 ```
 <input type="submit" value="Submit">
 ```
-### Reset Input
+#### Reset Input
 ```
 {type: 'reset', value: 'Reset'}
 ```
-### Output
+#### Output
 ```
 <input type="reset" value="Reset">
 ```
-### Output
+#### Output
 ```
 <input type="submit" value="Submit">
 ```
-### Email Input
+#### Email Input
 ```
 {type: 'text', label: 'Last Name', name: 'lastName', value: 'Enter your last name'}
 ```
-### Output
+#### Output
 ```
 <label>Email <input type="email" name="email" value="Enter your email"/></label>
 ```
