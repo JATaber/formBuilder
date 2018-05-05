@@ -16,11 +16,11 @@ Install the packages
 
 `npm install`
 
-### Testing the code
+## Testing the code
 
 `node src/index.js`
 
-#### Allowed inputs
+### Allowed inputs
 
 * Select
 * Submit
