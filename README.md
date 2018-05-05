@@ -36,6 +36,9 @@ If the code is up to airbnb standards to terminal window will output
   AirBnB Style Guide Adhearance - eslint
     √ should have no errors in src/builderTool.js
     √ should have no errors in src/index.js
+
+
+  2 passing
 ```
 
 ## Testing the code
