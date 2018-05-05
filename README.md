@@ -18,13 +18,27 @@ Install the packages
 
 ## AirBnB Style Guide Lint Test
 
-make sure you install mocha globally
+### Make sure you install mocha globally
 
 `npm i -g mocha`
 
+### Then install mocha-eslint to you developer dependencies
+
+`npm install mocha-eslint --save-dev`
+
+### Test the AirBnB style test 
+
+`npm run airbnb`
+
+If the code is up to airbnb standards to terminal window will output
+
+  `AirBnB Style Guide Adhearance - eslint
+    √ should have no errors in src/builderTool.js
+    √ should have no errors in src/index.js`
+
 ## Testing the code
 
-`node src/index.js`
+`npm test`
 
 ### Allowed inputs
 
