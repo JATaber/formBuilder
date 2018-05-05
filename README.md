@@ -32,9 +32,11 @@ Install the packages
 
 If the code is up to airbnb standards to terminal window will output
 
-  `AirBnB Style Guide Adhearance - eslint
+```
+  AirBnB Style Guide Adhearance - eslint
     √ should have no errors in src/builderTool.js
-    √ should have no errors in src/index.js`
+    √ should have no errors in src/index.js
+```
 
 ## Testing the code
 
