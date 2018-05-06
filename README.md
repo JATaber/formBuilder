@@ -25,6 +25,8 @@ Install the packages
 ### Then install mocha-eslint to you developer dependencies
 
 `npm install mocha-eslint --save-dev`
+`npm install eslint-config-airbnb-base --save-dev`
+`npm install eslint-plugin-import --save-dev`
 
 ### Test the AirBnB style test 
 
